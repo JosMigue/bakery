@@ -1,0 +1,33 @@
+{
+  "name": "bakery-management",
+  "version": "1.0.0",
+  "description": "Elsa's Bakery management API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosMigue/bakery.git"
+  },
+  "keywords": [
+    "bakery",
+    "management"
+  ],
+  "author": "josmigue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosMigue/bakery/issues"
+  },
+  "homepage": "https://github.com/JosMigue/bakery#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
